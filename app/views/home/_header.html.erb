@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #fff !important;">
+  <a class="navbar-brand mb-0 h1" href="#"><%= inline_svg_tag "speedometer2.svg", class: "NavLogo"%></a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <%= link_to 'Home', root_path, class:"nav-link" %>
+      </li>
+
+      <li class="nav-item">
+        <%= link_to 'People', table_examples_path, class:"nav-link" %>
+      </li>
+
+      <li class="nav-item">
+        <%= link_to 'Contact', home_contact_path, class:"nav-link" %>
+      </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+
+      <ul class="nav justify-content-center">
+
+        <li class="nav-item">
+         <a class="nav-link" href="https://www.linkedin.com/in/george-claridge-6a5a1721b/"><%= inline_svg_tag "linkedin.svg", class: "HeaderLogo" %></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/GeorgeClaridge"><%= inline_svg_tag "github.svg", class: "HeaderLogo" %></a>
+         </li>
+
+      </ul>
+
+    </form>
+
+  </div>
+</nav>
+
+</br>

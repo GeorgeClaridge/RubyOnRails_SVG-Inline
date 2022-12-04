@@ -1,0 +1,46 @@
+<%= form_with(model: table_example) do |form| %>
+  <% if table_example.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(table_example.errors.count, "error") %> prohibited this table_example from being saved:</h2>
+
+      <ul>
+        <% table_example.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+
+        <div class="field form-group">
+          <% form.label :first_name, style: "display: block" %>
+          <%= form.text_field :first_name, class:"form-control", placeholder:"First Name" %>
+        </div>
+
+        <div class="field form-group">
+          <% form.label :last_name, style: "display: block" %>
+          <%= form.text_field :last_name, class:"form-control", placeholder:"Last Name" %>
+        </div>
+
+        <div class="field form-group">
+          <% form.label :email, style: "display: block" %>
+          <%= form.text_field :email, class:"form-control", placeholder:"email@example.com" %>
+        </div>
+
+        <div class="field form-group">
+          <% form.label :contact, style: "display: block" %>
+          <%= form.text_field :contact, class:"form-control", placeholder:"Contact" %>
+        </div>
+
+        <div class="card-footer bg-transparent border-success">
+          <div class="action">
+            <%= form.submit class:'btn btn-primary' %> <%= link_to "Back to Table Examples", table_examples_path, class:'btn btn-outline-primary' %>
+          </div>
+        </div>
+           
+
+  <% end %>
+
+
+

@@ -1,0 +1,32 @@
+<div id="<%= dom_id table_example %>">
+
+  <div class="d-flex justify-content-center">
+    <div class="card w-100">
+
+        <div class="card-body">
+          <p class="card-text">
+
+            <div class="jumbotron">
+              <h1 class="display-4"><%= table_example.first_name %> <%= table_example.last_name %></h1>
+
+                <p class="lead">
+                  <%= table_example.email %> |
+                  <%= table_example.contact %> 
+                </p>
+
+                <%= link_to "Edit Person", edit_table_example_path(@table_example), class: "btn btn-primary" %>
+                <%= link_to "Back", table_examples_path, class: "btn btn-primary" %>
+                <%= link_to "Delete Person", @friend, data: { turbo_method: :delete, turbo_confirm: "Are you sure you want to delete this person" }, class: "btn btn-outline-danger" %>
+
+              </div>
+
+          </p>
+        </div>
+
+      </div>
+
+  </div>
+
+</div>
+
+</br>

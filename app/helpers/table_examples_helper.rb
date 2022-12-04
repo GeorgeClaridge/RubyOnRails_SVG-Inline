@@ -1,0 +1,2 @@
+module TableExamplesHelper
+end

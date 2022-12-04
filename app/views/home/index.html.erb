@@ -1,0 +1,84 @@
+<div class="d-flex justify-content-center">
+  <div class="card w-100">
+    <h5 class="card-header">What is this website for?</h5>
+    <div class="card-body">
+      <p class="card-text">This is an example website used to show the use of different applications, toolkits and gems to create a website. This website's key components are Ruby On Rails, Bootstrap, SQLite and Inline SVG. This website uses responsive design so it is able to be used on different devices from computers to mobile phones.</p>
+    </div>
+  </div>
+</div>
+
+</br>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+
+  <!-- Ruby On Rails -->
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title"><%= inline_svg_tag "gem.svg", class: "RubyLogo"%> Ruby On Rails </h4> 
+        <p class="card-text">This website was made using Ruby On Rails version 7.0.4. Ruby On Rails is a full stack framework that is used to create website's back and front end. To find out more about Ruby On Rails click the button bellow to go to their website.</p>
+        <div class="d-grid d-md-flex justify-content-md-end">
+          <a href="#" class="btn btn-primary me-md-2" type="button" role="button">Their Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap -->
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <h4 class="card-title"><%= inline_svg_tag "bootstrap.svg", class: "BootLogo"%> Bootstrap </h4>
+        <p class="card-text">Bootstrap is a frontend toolkit used to build and customize websites. It has tons of prebuilt components and items to allow a user to build a website. This website uses version 5.2.3. To find out more click the button below.</p>
+        <div class="d-grid d-md-flex justify-content-md-end">
+          <a href="#" class="btn btn-primary me-md-2" type="button" role="button">Their Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SQLite -->
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title"><%= inline_svg_tag "filetype-sql.svg", class: "SqlLogo"%> SQLite </h4>
+        <p class="card-text">This webstie uses SQLite, which is a serverless database application. Ruby On Rails has built in support for SQLite which means it is great for testing and development. to find out more about SQLite click the button below.</p>
+        <div class="d-grid d-md-flex justify-content-md-end">
+          <a href="#" class="btn btn-primary me-md-2" type="button" role="button">Their Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SVG Inline -->
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h4 class="card-title"><%= inline_svg_tag "filetype-svg.svg", class: "SvgLogo"%> Inline SVG</h4>
+        <p class="card-text">SVG Inline is a Ruby On Rails gem that creates two helpers which allow the user to style SVGs quickly easily. This website uses version 1.8.0. To find out more about this gem visit their github by clicking the button below.</p>
+        <div class="d-grid d-md-flex justify-content-md-end">
+          <a href="#" class="btn btn-primary me-md-2" type="button" role="button">Their Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Notes -->
+<div class="d-flex justify-content-center">
+  <div class="card w-100">
+    <h5 class="card-header">Notes:</h5>
+    <div class="card-body">
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">The icons used for this website can be found at <a href="https://icons.getbootstrap.com." class="link-primary">GetBootstrap.com</a></li>
+        <li class="list-group-item">If u are struggling with Inline SVG a great tutorial i used can be found here <a href="https://www.youtube.com/watch?v=HEDBhzlrhF8&ab_channel=SupeRailsbyYaroslavShmarov" class="link-primary">SVG Tutorial</a></li>
+        <li class="list-group-item">A great Ruby On Rails and Devise Tutorial done by Codemy.com can be found here <a href="https://www.youtube.com/watch?v=HEDBhzlrhF8&ab_channel=SupeRailsbyYaroslavShmarov" class="link-primary">Ruby On Rails Tutorial</a></li>
+      </ul>
+      </br>
+      <a href="#" class="btn btn-primary me-md-2" type="button" role="button">Their Website</a>
+    </div>
+  </div>
+</div>
+
+</br>

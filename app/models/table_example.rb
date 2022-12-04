@@ -1,0 +1,2 @@
+class TableExample < ApplicationRecord
+end

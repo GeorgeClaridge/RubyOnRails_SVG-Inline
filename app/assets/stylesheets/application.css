@@ -1,0 +1,253 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*Colours
+#2BAE66FF
+#FCF6F5FF
+#f9f9f9
+*/
+
+/* LOGOS */
+.NavLogo {
+
+    width: 80px;
+    height: 50px;
+    stroke-width: 0.2px;
+
+}
+
+.RubyLogo {
+
+    width: 20px;
+    height: 20px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.3px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+.ContactLogo {
+
+    width: 20px;
+    height: 20px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.3px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+.BootLogo {
+
+    width: 20px;
+    height: 20px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.7px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+.SqlLogo {
+
+    width: 20px;
+    height: 20px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.3px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+.SqlLogo {
+
+    width: 20px;
+    height: 20px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.3px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+.SvgLogo {
+
+    width: 20px;
+    height: 20px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.3px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+.MailLogo {
+
+    width: 25px;
+    height: 25px; 
+    stroke: #2BAE66FF;
+    stroke-width: 0.3px;
+    position: relative;
+    bottom: 0.12em;
+
+}
+
+
+.HeaderLogo {
+    
+    width: 20px;
+    height: 20px;
+    color: #2BAE66FF;
+
+}
+
+.NoteLogo {
+
+    color: #2BAE66FF;
+    width: 20px;
+    height: 20px;
+}
+
+/* HOVER EFFECTS */
+.navbar-brand:hover {
+
+    color:#23834e !important;
+
+}
+
+.HeaderLogo:hover {
+
+    color:#23834e !important;
+
+}
+
+.nav-link:hover {
+
+    color:#23834e !important;
+
+}
+
+.btn-outline-primary {
+    color: #2BAE66FF !important;
+    border-color: #2BAE66FF !important;
+}
+
+.btn-outline-primary:hover, .btn-primary:hover {
+    color: #fff !important;
+    border-color: #23834e !important;
+    background-color: #23834e !important;
+}
+
+
+/* SHADOW EFFECTS */
+.navbar {
+
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+
+}
+
+.card {
+
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+
+}
+
+.card-header {
+
+    background-color: #2BAE66FF !important;
+    color: #fff;
+
+}
+
+/* CARD SPACING */
+
+.card-footer {
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+}
+
+.col {
+
+    padding-bottom: 15px;
+
+}
+
+.col-sm-6 {
+
+    padding-bottom: 15px;
+
+}
+
+.jumbotron {
+    padding: 0rem !important;
+}
+
+/* COLOUR CHANGES */
+
+.card-title {
+
+    color: #2BAE66FF;
+
+}
+
+body {
+
+    background-color: #f9f9f9;
+    color: #343a40;
+
+}
+
+.btn-primary {
+
+    background-color: #2BAE66FF !important;
+    border-color: #2BAE66FF !important;
+
+}
+
+.nav-link {
+
+    color: #fff;
+    font-size: 1.3rem;
+
+}
+
+.navbar-light .navbar-brand {
+
+    color: #2BAE66FF;
+
+}
+
+.FooterDiv {
+
+    background-color: #2BAE66FF;
+
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.display-4 {
+    color: #2BAE66FF;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #2BAE66FF;
+    border-color: #2BAE66FF;
+}
+
