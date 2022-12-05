@@ -9,4 +9,3 @@ Includes
 -SQLite Database
 -Bootstrap
 -SVG_inline Gem
--SQLite
