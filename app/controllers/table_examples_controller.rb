@@ -38,7 +38,7 @@ class TableExamplesController < ApplicationController
   def update
     respond_to do |format|
       if @table_example.update(table_example_params)
-        format.html { redirect_to table_example_url(@table_example), notice: "Table example was successfully updated." }
+        format.html { redirect_to table_example_url(@table_example), notice: "Friend has been successfully updated." }
         format.json { render :show, status: :ok, location: @table_example }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -52,7 +52,7 @@ class TableExamplesController < ApplicationController
     @table_example.destroy
 
     respond_to do |format|
-      format.html { redirect_to table_examples_url, notice: "Table example was successfully destroyed." }
+      format.html { redirect_to table_examples_url, notice: "Friend has been deleted." }
       format.json { head :no_content }
     end
   end

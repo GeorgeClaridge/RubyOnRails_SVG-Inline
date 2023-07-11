@@ -15,7 +15,7 @@
  */
 
 /*Colours
-#2BAE66FF
+#2c786c
 #FCF6F5FF
 #f9f9f9
 */
@@ -33,7 +33,7 @@
 
     width: 20px;
     height: 20px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.3px;
     position: relative;
     bottom: 0.12em;
@@ -44,7 +44,7 @@
 
     width: 20px;
     height: 20px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.3px;
     position: relative;
     bottom: 0.12em;
@@ -55,7 +55,7 @@
 
     width: 20px;
     height: 20px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.7px;
     position: relative;
     bottom: 0.12em;
@@ -66,7 +66,7 @@
 
     width: 20px;
     height: 20px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.3px;
     position: relative;
     bottom: 0.12em;
@@ -77,7 +77,7 @@
 
     width: 20px;
     height: 20px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.3px;
     position: relative;
     bottom: 0.12em;
@@ -88,7 +88,7 @@
 
     width: 20px;
     height: 20px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.3px;
     position: relative;
     bottom: 0.12em;
@@ -99,7 +99,7 @@
 
     width: 25px;
     height: 25px; 
-    stroke: #2BAE66FF;
+    stroke: #2c786c;
     stroke-width: 0.3px;
     position: relative;
     bottom: 0.12em;
@@ -111,13 +111,13 @@
     
     width: 20px;
     height: 20px;
-    color: #2BAE66FF;
+    color: #2c786c;
 
 }
 
 .NoteLogo {
 
-    color: #2BAE66FF;
+    color: #2c786c;
     width: 20px;
     height: 20px;
 }
@@ -125,31 +125,31 @@
 /* HOVER EFFECTS */
 .navbar-brand:hover {
 
-    color:#23834e !important;
+    color:#004445 !important;
 
 }
 
 .HeaderLogo:hover {
 
-    color:#23834e !important;
+    color:#004445 !important;
 
 }
 
 .nav-link:hover {
 
-    color:#23834e !important;
+    color:#004445 !important;
 
 }
 
 .btn-outline-primary {
-    color: #2BAE66FF !important;
-    border-color: #2BAE66FF !important;
+    color: #2c786c !important;
+    border-color: #2c786c !important;
 }
 
 .btn-outline-primary:hover, .btn-primary:hover {
     color: #fff !important;
-    border-color: #23834e !important;
-    background-color: #23834e !important;
+    border-color: #004445 !important;
+    background-color: #004445 !important;
 }
 
 
@@ -168,7 +168,7 @@
 
 .card-header {
 
-    background-color: #2BAE66FF !important;
+    background-color: #2c786c !important;
     color: #fff;
 
 }
@@ -200,7 +200,7 @@
 
 .card-title {
 
-    color: #2BAE66FF;
+    color: #2c786c;
 
 }
 
@@ -213,27 +213,28 @@ body {
 
 .btn-primary {
 
-    background-color: #2BAE66FF !important;
-    border-color: #2BAE66FF !important;
+    background-color: #2c786c !important;
+    border-color: #2c786c !important;
 
 }
 
 .nav-link {
 
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    
 
 }
 
 .navbar-light .navbar-brand {
 
-    color: #2BAE66FF;
+    color: #2c786c;
 
 }
 
 .FooterDiv {
 
-    background-color: #2BAE66FF;
+    background-color: #2c786c;
 
 }
 
@@ -242,12 +243,16 @@ body {
 }
 
 .display-4 {
-    color: #2BAE66FF;
+    color: #2c786c;
 }
 
 .table .thead-dark th {
     color: #fff;
-    background-color: #2BAE66FF;
-    border-color: #2BAE66FF;
+    background-color: #2c786c;
+    border-color: #2c786c;
 }
 
+.BorderForm {
+    border-top: 1px solid;
+    border-color: #2c786c;
+}
